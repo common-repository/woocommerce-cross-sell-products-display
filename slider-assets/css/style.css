@@ -1,0 +1,33 @@
+.cross-sells.woocommerce.wcsp-cross-sell-slider {
+    position: relative;
+}
+
+.products.owl-carousel li{
+    width: 100% !important;
+}
+
+.products.owl-carousel  .owl-nav {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+.products.owl-carousel  .owl-nav .owl-prev, .products.owl-carousel  .owl-nav .owl-next {
+    position: absolute;
+    z-index: 100;
+}
+.products.owl-carousel  .owl-nav .owl-prev i, .products.owl-carousel  .owl-nav .owl-next i {
+    font-size: 2.5rem;
+    color: #cecece;
+}
+.products.owl-carousel  .owl-nav .owl-prev {
+    left: 0;
+}
+.products.owl-carousel  .owl-nav .owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-dot{
+    padding: 0;
+    background: none;
+}
